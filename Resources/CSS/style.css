@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*styling the nav */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 5.3125rem;
+  padding: 2rem 1.875rem;
+  /* margin-top: 2rem; */
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.content a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+}
+
+#unix {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop ul {
+  list-style: none;
+  text-align: right;
+}
+
+.desktop ul li {
+  display: inline;
+  padding-left: 2rem;
+}
+
+.desktop ul li a {
+  color: #4a4a4a;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.icon {
+  /* max-width: 7%;
+  max-height: 7%;
+  min-width: 7%;
+  min-height: 7%; */
+  max-width: 2.2rem;
+  max-height: auto;
+  padding-left: 1rem;
+  vertical-align: sub;
+}
+
+/* main section */
+
+#sign-up-section {
+  background-image: url("../Imgs/banner-landingpage.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10.625rem 6.25rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#sign-up-cta {
+  background-color: #9dc20a;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  text-align: center;
+  padding: 2rem 5rem;
+  color: white;
+}
+
+.cursive {
+  font-family: "Damion", cursive;
+  letter-spacing: 0.2rem;
+  font-size: 2em;
+  font-weight: lighter;
+  padding-bottom: 0.3rem;
+}
+
+.headervisiable {
+  display: none;
+}
+.striking {
+  font-size: 3.125em;
+  padding-bottom: 0.5rem;
+}
+
+.email {
+  /* text-align: center; */
+  max-width: 420px;
+  padding-bottom: 1.625rem;
+}
+.email p {
+  /* max-width: 400px;
+  padding-bottom: 1.625rem; */
+  padding-bottom: 1.625rem;
+  line-height: 1.4;
+}
+
+.email .button {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  max-width: 405px;
+  max-height: 64px;
+  background-color: #4a4a4a;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* feature section  */
+#features-section {
+  background-color: #eaeaea;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  padding: 4rem 5rem 2.875rem;
+}
+
+.feature {
+  background-color: white;
+  max-height: 40rem;
+  /* padding: 2rem 2rem 0; */
+  margin: 0 2.375rem;
+}
+
+.feature .center {
+  margin: 2rem;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-height: 187px; */
+}
+
+.feature .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 90%;
+  max-height: 65%;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.content h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #4a4a4a;
+  margin-bottom: 0.5rem;
+}
+
+.content h3 {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+
+/* filter section  */
+
+#filters-section {
+  background-color: #4a4a4a;
+  text-align: center;
+  padding: 4rem 1%;
+}
+
+#filters-section .content h2,
+#filters-section .content h3 {
+  color: white;
+}
+
+#filters-section .content h2 {
+  opacity: 100%;
+  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#filters-section .content h3 {
+  line-height: 1.4;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5rem;
+}
+
+#filters-section .images-container {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+}
+.newinlineblock {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.newinlineblock img {
+  max-width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* qoute section */
+#quotes-section {
+  background-color: #eaeaea;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "palatino";
+  src: url("../Fonts/palatin.ttf"), format(truetype);
+  font-weight: 400;
+}
+.quote {
+  line-height: 1.1;
+  font-family: "palatino";
+  font-style: italic;
+  font-size: 1.875rem;
+  color: #4a4a4a;
+  margin-right: 1.875rem;
+}
+
+/* footer */
+
+footer {
+  height: 3.875rem;
+  background-color: #9b9b9b;
+  padding: 0 2rem;
+}
+.copyright {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.location {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+footer .content {
+  display: flex;
+  justify-content: space-between;
+}

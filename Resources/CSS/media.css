@@ -1,0 +1,166 @@
+@media only screen and (width <= 1024px) {
+  header .content {
+    margin: 0 1rem;
+  }
+
+  #sign-up-cta {
+    display: none;
+  }
+  .quote {
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+    float: left;
+    margin-left: 1rem;
+  }
+
+  #unix {
+    display: inline-block;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    background-color: #9dc20a;
+    border-radius: 4px;
+    vertical-align: middle;
+    color: white;
+    padding-top: 0.1rem;
+  }
+
+  #sign-up-section {
+    text-align: center;
+    justify-content: center;
+  }
+  .headervisiable {
+    display: block;
+    color: white;
+  }
+
+  .headervisiable h1 {
+    font-size: 4rem;
+  }
+
+  .headervisiable h2 {
+    font-size: 4rem;
+  }
+
+  header {
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 0 0.2rem;
+  }
+
+  #features-section {
+    padding: 1rem 0 1.875rem;
+  }
+}
+
+@media only screen and (width <= 480px) {
+  header {
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 0 0.2rem;
+  }
+  #unix {
+    display: inline-block;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    background-color: #9dc20a;
+    border-radius: 4px;
+    vertical-align: middle;
+    color: white;
+    padding-top: 0.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: unset;
+  }
+
+  .mobile ul {
+    list-style: none;
+  }
+  .mobile ul li {
+    display: inline;
+  }
+
+  .mobile ul li a {
+    padding: 0 1.8rem;
+  }
+
+  header .content {
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0;
+  }
+
+  #features-section {
+    flex-direction: column;
+    padding: 0.1rem 0 1.875rem;
+  }
+
+  .feature {
+    margin: 0;
+  }
+  .firstcenter {
+    background-color: #d4d5d6;
+  }
+  .content h2 {
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 1.3;
+  }
+
+  #filters-section .content h2 {
+    font-size: 1.125rem;
+  }
+
+  #filters-section .content h3 {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+  }
+
+  #quotes-section {
+    padding: 3rem 0;
+  }
+
+  .copyright {
+    font-size: 0.625rem;
+  }
+
+  .location {
+    font-size: 0.625rem;
+  }
+
+  #sign-up-section {
+    padding: 4rem 3.5rem;
+    text-align: center;
+  }
+  .headervisiable {
+    display: block;
+    color: white;
+  }
+
+  .headervisiable h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* @media only screen and (width <= 393px) {
+  #unix {
+    height: 1rem;
+    width: 5rem;
+    font-size: 1rem;
+  }
+} */
