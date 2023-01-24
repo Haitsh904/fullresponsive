@@ -1,4 +1,4 @@
-@media (width <= 1024px) {
+@media all and (width <= 1024px) {
   header .content {
     margin: 0 1rem;
   }
@@ -53,7 +53,7 @@
   }
 }
 
-@media (width <= 480px) {
+@media all and (width <= 480px) {
   header {
     height: 3rem;
     margin-top: 1rem;
